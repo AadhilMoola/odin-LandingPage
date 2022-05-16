@@ -60,6 +60,7 @@
 .herosubtext{
     color: #e5e7eb;
     font-size: 18px;
+
 }
 
 
@@ -107,4 +108,67 @@
     justify-content: center;
     padding: 32px;
     gap: 12px;
+}
+
+.random-text{
+    text-align: center;
+}
+
+
+/*Inspiring Quote*/
+
+.inspiringquote{
+    color:#1F2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight:lighter ;
+    font-style: italic;
+    padding: 36px 800px;
+    margin: 36px 0;
+
+}
+
+.credit{
+    text-align: right;
+    font-weight: 800;
+}
+
+/*Call to Action*/
+
+.call-to-action{
+    display:flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px 500px;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CTA-head{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.CTA-button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border:2px solid #f9faf8;
+    border-radius:15px;
+    padding:10px 20px;
+}
+
+/*Footer*/
+.footer{
+    color: #f9faf8;
+    background-color: #1F2937;
+    margin: 0;
+    text-align: center;
+    padding: 32px;
+}
+
+/*keep footer at the bottom*/
+body{
+    display: flex;
+    flex-flow: column wrap;
 }
